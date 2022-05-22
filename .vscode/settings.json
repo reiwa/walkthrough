@@ -1,0 +1,19 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "**/node_modules": true,
+    "*.lock": true,
+    "*.tsbuildinfo": true,
+    ".next": true
+  },
+  "search.exclude": {
+    "*.lock": true
+  },
+  "deno.enable": false
+}
